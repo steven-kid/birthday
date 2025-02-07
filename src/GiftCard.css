@@ -1,5 +1,5 @@
 .gift-card {
-  background-color: #f8e1f4;
+  background-color: #ffffff;
   border-radius: 15px;
   padding: 20px;
   text-align: center;
@@ -9,27 +9,13 @@
 }
 
 .gift-card h1 {
-  color: #d63384;
+  color: rgb(99, 190, 233);
   font-size: 2em;
 }
 
 .gift-card p {
-  color: #555;
+  color: rgb(99, 190, 233);
   margin: 10px 0;
-}
-
-.gift-button {
-  background-color: #d63384;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.gift-button:hover {
-  background-color: #b82e6c;
 }
 
 @keyframes fadeIn {

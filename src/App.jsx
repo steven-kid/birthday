@@ -1,13 +1,24 @@
+import Spline from "@splinetool/react-spline";
 import GiftCard from "./GiftCard";
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
-      <video className="birthday-video" controls autoPlay loop muted>
-        <source src="path/to/your/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <div className="spline-container">
+        <Spline scene="https://prod.spline.design/WxriJxRzOXSxPXgW/scene.splinecode" />
+      </div>
+        <iframe
+          className="birthday-video"
+          width="560"
+          height="250"
+          src="https://www.youtube.com/embed/oAQmRO42UHc?si=qFDR161uSBmlpLiU"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
       <GiftCard />
     </div>
   );
