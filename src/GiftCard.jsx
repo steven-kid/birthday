@@ -1,4 +1,3 @@
-import React from "react";
 import "./GiftCard.css";
 
 const GiftCard = () => {
