@@ -1,20 +1,21 @@
 .gift-card {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border-radius: 15px;
   padding: 20px;
   text-align: center;
   margin: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   animation: fadeIn 2s ease-in-out;
 }
 
 .gift-card h1 {
-  color: rgb(99, 190, 233);
+  color: white;
   font-size: 2em;
 }
 
-.gift-card p {
-  color: rgb(99, 190, 233);
+.gift-card  {
+  color: white;
+  font-weight: 600;
   margin: 10px 0;
 }
 
