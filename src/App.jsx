@@ -28,13 +28,14 @@ function App() {
         className="birthday-video"
         width="560"
         height="250"
-        src="https://www.youtube.com/embed/oAQmRO42UHc?si=qFDR161uSBmlpLiU"
+        src="https://www.youtube.com/embed/Q7n7k8ZdV3g?si=1FztzWgJ-wL1sHpN&amp;controls=0"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
+      
       <GiftCard />
     </div>
   );
