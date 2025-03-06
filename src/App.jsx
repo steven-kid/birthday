@@ -2,6 +2,7 @@ import { useState } from "react";
 import Spline from "@splinetool/react-spline";
 import GiftCard from "./GiftCard";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className="app">
+      <Analytics/>
       {loading && (
         <div className="loading-overlay">
           <div className="loader"></div>
